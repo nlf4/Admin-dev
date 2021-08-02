@@ -53,6 +53,7 @@
             </ul>
         </nav>
         <!-- /.navbar -->
+
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
@@ -90,7 +91,7 @@
                         <!-- Add icons to the links using the .nav-icon class
     with font-awesome or any other icon font library -->
                         <li class="nav-item menu-open">
-                            <a href="#" class="nav-link active">
+                            <a href="~/Views/Home/default.html" class="nav-link active">
                                 <i class="nav-icon fa fa-home"></i>
                                 <p>
                                     Home

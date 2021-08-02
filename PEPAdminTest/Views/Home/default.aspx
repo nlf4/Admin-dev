@@ -7,7 +7,7 @@ End Code
     <div class="col-md-4">
         <h2>News</h2>
         <p>
-            Starting today, the mail Icon that you are accustomed to seeing on the front page of the web apps portal will no longer be functional. 
+       Starting today, the mail Icon that you are accustomed to seeing on the front page of the web apps portal will no longer be functional. 
 
 Simply by typing in http://www.office.com in your browser of choice and logging in with your PEP credentials yields a world of functionality and productivity tools including your email.
 

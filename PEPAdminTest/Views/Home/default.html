@@ -29,8 +29,8 @@ End Code
     <!-- summernote -->
     <link rel="stylesheet" href="/Content/plugins/summernote/summernote-bs4.min.css">
 
-    <!--@Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")-->
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
 </head>
 
 <!-- Main Sidebar Container -->
@@ -69,8 +69,8 @@ End Code
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class
                 with font-awesome or any other icon font library -->
-                <li class="nav-item">
-                    <a href="/Views/Home/Index.vbhtml" class="nav-link">
+                <li class="nav-item menu-open">
+                    <a href="#" class="nav-link active">
                         <i class="nav-icon fa fa-home"></i>
                         <p>
                             Home
@@ -79,7 +79,7 @@ End Code
 
                 </li>
                 <li class="nav-item">
-                    <a href="~/security.html" class="nav-link active">
+                    <a href="~/security.html" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Site Administration
@@ -88,7 +88,7 @@ End Code
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/Views/Shared/administrative.html" class="nav-link">
+                    <a href="pages/widgets.html" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Administrative
@@ -138,8 +138,8 @@ End Code
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="/Views/Home/Index.vbhtml">Home</a></li>
-                        <li class="breadcrumb-item active">Site Administration</li>
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Widgets</li>
                     </ol>
                 </div>
             </div>
@@ -147,16 +147,7 @@ End Code
     </section>
     <!-- Main content -->
     <section class="content">
-        <div class="container-fluid"><p>
-
-    The intention of this application is for administrator to configure this intranet site. They manage user lists, the groups they belongs to, and the security rights they have to each application.
-
-    All users for this site other than the guest user will be entered into the system via this application. The items on the left side bar and its submenu are also managed by this application. Due to security concerns, this application required a sign on by a user with administrator rights. This is either an administrator or user belonging to the administration group. All sub menus within this application check security rights frequently to prevent a security breach.
-</p>
-                                     <p>
-                                         WARNING!
-                                         If you are not an administrator of this site, you must sign off immediately. Violators will be prosecuted.
-                                     </p></div>
+        <div class="container-fluid"><p>MAIN CONTENT</p></div>
     </section>
 </div>
 
@@ -176,5 +167,3 @@ End Code
     </div>
 
 </div>-->
-
-

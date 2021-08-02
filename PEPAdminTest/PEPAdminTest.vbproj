@@ -2136,7 +2136,9 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="security.html" />
     <Content Include="Views\Home\default.aspx" />
+    <Content Include="Views\Home\default.html" />
     <Content Include="Views\Home\security.aspx" />
+    <Content Include="Views\Shared\administrative.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

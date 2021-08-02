@@ -1,11 +1,13 @@
-﻿@Code
+﻿This module manages our Agency's Administrative and Personnel information. You will have to log in to the PEP application suite to gain access to the functionality.
+
+@Code
     ViewData("Title") = "Home Page"
 End Code
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - PEP Web App</title>
+    <title>PEP Web App | Administrative</title>
 
 
     <!-- Google Font: Source Sans Pro -->
@@ -79,7 +81,7 @@ End Code
 
                 </li>
                 <li class="nav-item">
-                    <a href="~/security.html" class="nav-link active">
+                    <a href="~/security.html" class="nav-link ">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Site Administration
@@ -88,7 +90,7 @@ End Code
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/Views/Shared/administrative.html" class="nav-link">
+                    <a href="pages/widgets.html" class="nav-link active">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Administrative
@@ -134,12 +136,12 @@ End Code
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Site Administration</h1>
+                    <h1>Administrative</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="/Views/Home/Index.vbhtml">Home</a></li>
-                        <li class="breadcrumb-item active">Site Administration</li>
+                        <li class="breadcrumb-item active">Administrative</li>
                     </ol>
                 </div>
             </div>
@@ -147,16 +149,13 @@ End Code
     </section>
     <!-- Main content -->
     <section class="content">
-        <div class="container-fluid"><p>
+        <div class="container-fluid">
+            <p>
 
-    The intention of this application is for administrator to configure this intranet site. They manage user lists, the groups they belongs to, and the security rights they have to each application.
-
-    All users for this site other than the guest user will be entered into the system via this application. The items on the left side bar and its submenu are also managed by this application. Due to security concerns, this application required a sign on by a user with administrator rights. This is either an administrator or user belonging to the administration group. All sub menus within this application check security rights frequently to prevent a security breach.
-</p>
-                                     <p>
-                                         WARNING!
-                                         If you are not an administrator of this site, you must sign off immediately. Violators will be prosecuted.
-                                     </p></div>
+                This module manages our Agency's Administrative and Personnel information. You will have to log in to the PEP application suite to gain access to the functionality.
+            </p>
+            
+        </div>
     </section>
 </div>
 
@@ -176,5 +175,3 @@ End Code
     </div>
 
 </div>-->
-
-
